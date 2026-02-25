@@ -365,7 +365,7 @@ a {
   box-sizing: border-box;
 }
 .scroll-all {
-  /* margin-top: 535px; */
+  padding: 0 5px;
   max-width: 100% !important;
   height: 668px;
   display: flex;
