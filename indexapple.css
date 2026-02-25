@@ -492,7 +492,8 @@ a {
 }
 .insidetheball {
   margin: 0;
-  font-size: 12px;
+  width: 12px;
+  height: 12px;
 }
 @media (max-width: 768px) {
   body {
