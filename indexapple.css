@@ -475,6 +475,25 @@ a {
   align-items: center;
   justify-content: center;
 }
+.lastpart {
+  width: 100%;
+  padding: 22px 22px;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.ball {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  background-color: #d2d2d7;
+}
+.insidetheball {
+  margin: 0;
+  font-size: 12px;
+}
 @media (max-width: 768px) {
   body {
     margin: 0;
