@@ -1,10 +1,12 @@
 body {
   margin: 0 auto;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
 }
+
 .section1 {
   width: 100%;
   margin: 0 auto;
@@ -364,14 +366,17 @@ a {
 }
 .scroll-all {
   margin-top: 535px;
-  width: 100%;
+  max-width: 100% !important;
   height: 668px;
   display: flex;
   gap: 15px;
   border: 0.5px solid rgba(128, 128, 128, 0);
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
 }
 .movied {
   min-width: 1250px;
@@ -437,7 +442,7 @@ a {
   display: flex;
   border: 5px solid rgba(0, 0, 0, 0);
   overflow: hidden;
-  width: 100%;
+  width: 100% !important;
 }
 
 .scroll-track {
@@ -503,6 +508,7 @@ a {
     top: 0%;
     left: 0%;
     height: 44px;
+    box-sizing: border-box;
   }
   .section1-1 {
     width: 100%;
@@ -515,6 +521,8 @@ a {
     gap: 0;
     display: block;
     display: flex;
+    align-items: center;
+    width: 132px;
   }
   .underheadline {
     display: flex;
